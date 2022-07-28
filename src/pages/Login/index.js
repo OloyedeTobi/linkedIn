@@ -1,15 +1,16 @@
 import Card from "../../components/cards"
+import Logo from "../../components/logo"
 
 const Login = () =>{
     return(
     <div className="px-36 py-5 overflow-x-hidden max-w-[100] box-border lg:px-10 md:px-4"> 
         <div className="flex justify-between">
-            <div className="w-40 py-2">
-                <img alt="logo" src="images/login-logo.svg" className="w-40 md:w-20"/>
+            <div className="w-40 md:w-20 py-1">
+                <Logo width={40} mdwidth={20}/>
             </div>
             <div className="flex">
-                <button className="mr-10 font-bold text-slate-500 hover:bg-slate-100 rounded-3xl py-2 px-5">Join now</button>
-                <button className="text-blue border-2 rounded-3xl border-blue py-2 px-5 hover:bg-blue-2">Login</button>
+                <button className="mr-10 font-bold text-slate-500 hover:bg-slate-100 rounded-3xl py-1 px-5">Join now</button>
+                <button className="text-blue border-2 rounded-3xl border-blue py-1 px-5 hover:bg-blue-2">Login</button>
             </div>
         </div>
 

@@ -6,7 +6,10 @@ module.exports = {
       colors: {
         'blue': "#0a66c2",
         'blue-2': "rgba(112, 181, 249, 0.2)",
-        'green': "#f4f389"
+        'green': "#f4f389",
+        'cream': "#f3f2ef",
+        'grey': "rgba(0,0,0,0.6)",
+        'blue-9': "#0c4a6e",
       },
       screens: {
         '2xl': {'max': '1535px'},
