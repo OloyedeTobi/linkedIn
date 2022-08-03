@@ -10,6 +10,7 @@ module.exports = {
         'cream': "#f3f2ef",
         'grey': "rgba(0,0,0,0.6)",
         'blue-9': "#0c4a6e",
+        'burnt': "#915907"
       },
       screens: {
         '2xl': {'max': '1535px'},
