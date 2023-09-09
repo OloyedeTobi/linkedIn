@@ -18,7 +18,10 @@ module.exports = {
         'lg': {'max': '1023px'},
         'md': {'max': '767px'},  
         'sm': {'max': '639px'},
-      }
+      },
+      // backgroundImage:{
+      //   'cover-photo': `"url${(process.env.PUBLIC_URL + '/images/user.svg')}"`
+      // }
     },
   },
   plugins: [],

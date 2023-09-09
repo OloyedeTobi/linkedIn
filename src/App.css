@@ -7,3 +7,8 @@
 body{
   overflow-x: hidden;
 }
+
+.cover{
+    background-image: url("./bg-images/user.svg");
+}
+

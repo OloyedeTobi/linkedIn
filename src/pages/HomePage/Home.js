@@ -6,7 +6,9 @@ const Home = () =>{
     return(
         <>
         <Header />
-        <SideCards Children={<SideProfile/>} padding={"0"}/>
+        <div className="w-[300px] ml-36">
+            <SideCards Children={<SideProfile/>}/>
+        </div>
         </>
     )
 }

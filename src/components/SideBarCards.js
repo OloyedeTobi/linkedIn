@@ -1,8 +1,8 @@
 const SideCards = ({Children, padding}) =>{
     return(
         <>
-         <div className={`rounded border-2 p-[${padding}]`}>
-            <Children />
+         <div className={`rounded border-2 ml-[${padding}]`}>
+            { Children }
          </div>
         </>
     )
